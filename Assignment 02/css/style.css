@@ -114,7 +114,9 @@ nav button:active{
 }
 footer{
     background: #f2f2f2;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer h4{
     color: rbga(0,0,0,0.54);
@@ -143,4 +145,7 @@ footer a:hover{
 }
 .links-2{
     padding-right: 18px;
+    text-align: center;
+    position: relative;
+    
 }
